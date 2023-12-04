@@ -1,0 +1,541 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#divtop1{
+    display: flex;
+}
+#imgtop1{
+    max-width: 560px;
+    height: 120px;
+    margin: 5px;
+    margin-top: 5px;
+}
+#head1{
+    font-size: 40px;
+    padding: 20px;
+    letter-spacing: 4px;
+    word-spacing: 5px;
+    text-shadow: 2px 2px 5px grey;
+    text-align:center;
+    margin-top: 20px;
+    margin-right: 35px;
+    cursor: pointer;
+}
+#imgtop2{
+    max-width: 100px;
+    height: 100px;
+    margin: 5px;
+}
+#div2{
+    width: 1000px;
+}
+#divnav1{
+    letter-spacing: 5px;
+    font-weight: 500;
+    font-size: 20px;
+    color: rgb(96, 86, 73);
+    margin: 15px;
+    padding: 10px;
+    text-align: center;
+    height: 10px;
+}
+#ul1{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+.dropdown1{
+    color: aquamarine;
+    margin: 20px;
+}
+.dropdown2{
+    font-size: 20px;
+    
+}
+.dropdown3{
+    color: #000;
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    min-width: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown3 a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 18px;
+}
+.dropdown1:hover .dropdown3{
+    display: block;
+}
+
+
+#imgfig{
+    border-radius: 4px;
+    max-width: 1215px;
+}
+#figc1{
+    background-color: black; 
+    color: #fcf9f9;
+}
+.divhomestay1{
+    padding: 10px;
+    margin: 10px;
+    height: 250px;
+    background-color:#83b9b1;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.ulhomestay{
+    list-style-type:none;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+#divhomestay2{
+    width: 300px;
+    height: 350px;
+    margin-top: 30px;
+    font-size: 24px;
+    color:mediumblue;
+}
+#homestayimg1{
+    height: 200px;
+    max-width: 200px;
+    margin-top: 25px;
+    border-radius:50%;
+}
+#homestayimg2{
+    height: 200px;
+    max-width: 200px;
+    margin-top: 25px;
+    border-radius:50%;
+}
+#homestayimg3{
+    height: 200px;
+    max-width: 200px;
+    margin-top: 25px;
+    border-radius:50%;
+}
+#homestaybtn{
+    background-color:lightsteelblue;
+    border-radius: 4px;
+    font-size: 18px;
+    
+}
+#homestaybtn:hover{
+    background-color:#d39999;
+}
+.divlocate1{
+    margin: 10px;
+    padding: 10px;
+    font-size: large;
+    font-weight: 500;
+}
+.divlocate2{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    margin: 10px;
+    padding: 10px;
+    height: 500px;
+}
+.divlocate3{
+    height: auto;
+    width: 1000px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.imglocate1{
+    height: auto;
+    max-width: 700px;
+    background-color: #000;
+    color: rgb(205, 175, 234);
+}
+.divlocate4{
+    font-size: large;
+    font-weight: 500;
+    font-family: 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#maindiv1{
+    margin: 10px;
+    padding: 10px;
+    background-color:wheat;
+    border-radius: 5px;
+}
+#idadventure1{
+    color: brown;
+    text-align: center;
+    font-size: larger;
+    font-size: 28px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+#idadventure2{
+    font-size: 24px;
+}
+#bike{
+    font-size: 22px;
+    font-weight: 400;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+}
+#bikeimg1{
+    max-width: 400px;
+    height: 300px;
+}
+.adventurediv{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+#bikep{
+    font-size: 20px;
+}
+#trekking{
+    font-size: 22px;
+    font-weight: 400;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+}
+#trekimg1{
+    max-width:780px;
+    height: 330px;
+}
+#trekkingp{
+    font-size: 20px;
+}
+#star{
+    font-size: 22px;
+    font-weight: 400;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+}
+#starimg1{
+    max-width:500px;
+    height: 330px;
+}
+#starp{
+    font-size: 20px;
+}
+#maindiv2{
+    margin: 10px;
+    padding: 10px;
+    background-color:wheat;
+    border-radius: 5px;
+}
+#idbeauty1{
+    color: brown;
+    text-align: center;
+    font-size: larger;
+    font-size: 28px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+#idbeauty2{
+    font-size: 24px;
+}
+.beautydiv{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+#khirsu{
+    font-size: 22px;
+    font-weight: 400;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+}
+#khirsuimg1{
+    max-width:500px;
+    height: 330px;
+}
+#khirsup{
+    font-size: 20px;
+}
+#devprayag{
+    font-size: 22px;
+    font-weight: 400;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+}
+#devprayagimg1{
+    max-width:500px;
+    height: 330px;
+}
+#devprayagp{
+    font-size: 20px;
+}
+#lansdowne{
+    font-size: 22px;
+    font-weight: 400;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+}
+#lansdowneimg1{
+    max-width:500px;
+    height: 330px;
+}
+#lansdownep{
+    font-size: 20px;
+}
+#maindiv3{
+    margin: 10px;
+    padding: 10px;
+    background-color:wheat;
+    border-radius: 5px;
+}
+#idtemple1{
+    color: brown;
+    text-align: center;
+    font-size: larger;
+    font-size: 28px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+#idtemple2{
+    font-size: 24px;
+}
+.templediv{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+#kandoliya{
+    font-size: 22px;
+    font-weight: 400;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+}
+#kandoliyaimg1{
+    max-width:500px;
+    height: 330px;
+}
+#kandoliyap{
+    font-size: 20px;
+}
+#kaleshwar{
+    font-size: 22px;
+    font-weight: 400;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+}
+#kaleshwarimg1{
+    max-width:500px;
+    height: 330px;
+}
+#kaleshwarp{
+    font-size: 20px;
+}
+#jwalpa{
+    font-size: 22px;
+    font-weight: 400;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+}
+#jwalpaimg1{
+    max-width:500px;
+    height: 330px;
+}
+#jwalpap{
+    font-size: 20px;
+}
+#maindiv4{
+    margin: 10px;
+    padding: 10px;
+    background-color:wheat;
+    border-radius: 5px;
+}
+#idfood1{
+    color: brown;
+    text-align: center;
+    font-size: larger;
+    font-size: 28px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+#idfood2{
+    font-size: 24px;
+}
+.fooddiv{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+#phaanu{
+    font-size: 22px;
+    font-weight: 400;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+}
+#phaanuimg1{
+    max-width:500px;
+    height: 330px;
+}
+#phaanup{
+    font-size: 20px;
+}
+#chainsoo{
+    font-size: 22px;
+    font-weight: 400;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+}
+#chainsooimg1{
+    max-width:500px;
+    height: 330px;
+}
+#chainsoop{
+    font-size: 20px;
+}
+#jhangora{
+    font-size: 22px;
+    font-weight: 400;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+}
+#jhangoraimg1{
+    max-width:500px;
+    height: 330px;
+}
+#jhangorap{
+    font-size: 20px;
+}
+#maindiv5{
+    margin: 10px;
+    padding: 10px;
+    background-color:wheat;
+    border-radius: 5px;
+}
+#idfestival1{
+    color: brown;
+    text-align: center;
+    font-size: larger;
+    font-size: 28px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+#idfestival2{
+    font-size: 24px;
+}
+.festivaldiv{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+#phool{
+    font-size: 22px;
+    font-weight: 400;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+}
+#phoolimg1{
+    max-width:500px;
+    height: 330px;
+}
+#phoolp{
+    font-size: 20px;
+}
+#ghughutiya{
+    font-size: 22px;
+    font-weight: 400;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+}
+#ghughutiyaimg1{
+    max-width:500px;
+    height: 330px;
+}
+#ghughutiyap{
+    font-size: 20px;
+}
+#egaas{
+    font-size: 22px;
+    font-weight: 400;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+}
+#egaasimg1{
+    max-width:500px;
+    height: 330px;
+}
+#egaasp{
+    font-size: 20px;
+}
+.clsreach{
+    text-transform: capitalize;
+    font-size: 30px;
+    font-weight: 800;
+    letter-spacing: 8px;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.divreach{
+    display: flex;
+    justify-content: space-evenly;
+}
+#iddiv
+{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+}
+#iddiv img{
+    padding-bottom: 10px;
+}
+#iddiv p{
+    margin-top: 10px;
+    font-size: 18px;
+}
+#divbtn{
+    margin: 10px;
+    display: flex; 
+    justify-content:space-evenly;
+    margin-bottom: 50px;
+}
+#divbtn1{
+    width: 250px;
+    margin: 10px;
+    padding: 10px;
+}
+#section1{
+    text-align: center;
+}
+#sectionimg{
+    height: 70px; 
+    width: 150px;
+}
+#footer1{
+    display: flex; 
+    background-color: rgb(140, 162, 119); 
+    margin: 10px;
+    padding: 10px;
+}
+.reachcls{
+    background-color:rgb(205, 175, 234);
+}
+#imgid1{
+    height: 70px; 
+    width: 150px;
+}
